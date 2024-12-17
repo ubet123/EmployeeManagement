@@ -6,10 +6,10 @@ const CreateTask = () => {
    
    
 
-    {/* Form Section */}
+    
     <div className="w-full max-w-5xl bg-gray-900 p-6 rounded-lg shadow-lg">
       <form className="grid grid-cols-2 gap-8 items-start">
-        {/* Left Section */}
+        
         <div className="space-y-6">
           <div>
             <h3 className="text-sm text-gray-500 mb-2">Task Title</h3>
@@ -44,7 +44,6 @@ const CreateTask = () => {
           </div>
         </div>
 
-        {/* Right Section */}
         <div className="space-y-6">
           <div>
             <h3 className="text-sm text-gray-500 mb-2">Description</h3>
