@@ -1,23 +1,21 @@
 import React from 'react'
 
-const CompleteTAsk = () => {
+const CompleteTask = ({data}) => {
   return (
-    <div className=' hover:bg-green-500 hover:shadow-md hover:shadow-black   cursor-pointer  h-full w-[300px] p-5 bg-green-400 rounded-xl flex-shrink-0'>
-        
-        <div className='flex justify-between  items-center'>
-        <h3 className='bg-red-600 px-3 py-1 rounded text-sm'>Category</h3>
-        <h4 className='text-sm'>20 Feb 2024</h4>
+    <div className='flex-shrink-0 h-full w-[300px] p-5 bg-green-500 rounded-xl'>
+            <div className='flex justify-between items-center'>
+                <h3 className='bg-red-600 text-sm px-3 py-1 rounded'>{data.category}</h3>
+                <h4 className='text-sm'>{data.taskDate}</h4>
+            </div>
+            <h2 className='mt-5 text-2xl font-semibold'>{data.taskTitle}</h2>
+            <p className='text-sm mt-2'>
+                {data.taskDescription}
+            </p>
+            <div className='mt-6'>
+                <button className='w-full bg-green-800 rounded font-medium py-1 px-2 text-xs cursor-not-allowed'>Completed</button>
+            </div>
         </div>
-        <h2 className='mt-5 text-2xl font-semibold'>Make a project</h2>
-        <p className='text-sm mt-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, iusto.
-
-        </p>
-        <div className='flex justify-between mt-7 '>
-            <button className='bg-green-900  px-4 text-sm rounded-xl py-2  cursor-not-allowed'>Completed</button>
-            
-        </div>
-        </div> 
   )
 }
 
-export default CompleteTAsk
+export default CompleteTask
