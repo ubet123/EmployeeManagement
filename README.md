@@ -21,7 +21,8 @@ An efficient Employee Management Platform designed to streamline task tracking, 
 
 ## Screenshots
 
-![Dashboard Screenshot](path_to_screenshot.png)
+![Dashboard Screenshot](worksync1.png)
+![Dashboard Screenshot](worksync2.png)
 
 
 
