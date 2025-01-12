@@ -3,6 +3,7 @@
 
 An efficient Employee Management Platform designed to streamline task tracking, performance monitoring, and role-based access control within an organization. This platform offers real-time task updates, admin-controlled task assignments, and interactive dashboards for performance insights, ensuring smooth and productive organizational workflows.
 
+## Website Link: https://sereneproject.vercel.app/ 
 ## Features
 
 - **Real-time Task Updates**: Employees and managers can view and track real-time updates for assigned tasks, ensuring timely progress and completion.
