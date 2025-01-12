@@ -23,6 +23,6 @@ An efficient Employee Management Platform designed to streamline task tracking, 
 
 ![Dashboard Screenshot](path_to_screenshot.png)
 
-*Interactive Dashboard displaying task progress and employee performance.*
+
 
 
